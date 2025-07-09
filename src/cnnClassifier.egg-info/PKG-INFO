@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/sohjpeg/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
+Author: sohjpeg
+Author-email: sohaib.bukhari2611@gmail.com
+Project-URL: Bug Tracker, https://github.com/sohjpeg/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/issues
+License-File: LICENSE
+
+# End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
