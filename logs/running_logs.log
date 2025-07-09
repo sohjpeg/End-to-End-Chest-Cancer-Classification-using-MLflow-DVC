@@ -1,1 +1,47 @@
 [2025-07-09 15:38:27,103 : INFO : main : Welcome to CNN Classifier]
+[2025-07-09 17:09:25,009 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:09:25,012 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:09:25,013 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:09:25,014 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:09:25,016 : INFO : 36341839 : Downloading data from https://drive.google.com/file/d/1z0mreUtmRmT-P-magILsDR3T7MG1KGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-09 17:11:11,467 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:11:11,468 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:11:11,470 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:11:11,471 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:11:11,471 : INFO : 36341839 : Downloading data from https://drive.google.com/uc?id=1z0mreUtmRmT-P-magILsDR3T7MG1KGXtY into file artifacts/data_ingestion/data.zip]
+[2025-07-09 17:12:36,562 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:12:36,563 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:12:36,565 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:12:36,565 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:12:36,566 : INFO : 36341839 : Downloading data from https://drive.google.com/uc?id=1z0mreUtmRmT-P-magILsDR3T7MG1KGXtY into file artifacts/data_ingestion/data.zip]
+[2025-07-09 17:15:06,439 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:15:06,440 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:15:06,441 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:15:06,442 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:15:06,443 : INFO : 36341839 : Downloading data from https://drive.google.com/uc?id=1z0mreUtmRmT-P-magILsDR3T7MG1KGXtY into file artifacts/data_ingestion/data.zip]
+[2025-07-09 17:16:04,686 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:16:04,688 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:16:04,689 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:16:04,689 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:16:39,440 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:16:39,442 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:16:39,442 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:16:39,444 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:34:00,233 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-09 17:34:00,235 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-09 17:34:00,235 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-09 17:34:00,237 : INFO : common : created directory at: artifacts]
+[2025-07-09 17:34:00,238 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-09 17:34:00,238 : ERROR : main : [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "C:\Users\sohai\OneDrive - National University of Sciences & Technology\Desktop\proj\End-to-End-Chest-Cancer-Classification-using-MLflow-DVC\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\sohai\onedrive - national university of sciences & technology\desktop\proj\end-to-end-chest-cancer-classification-using-mlflow-dvc\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\sohai\onedrive - national university of sciences & technology\desktop\proj\end-to-end-chest-cancer-classification-using-mlflow-dvc\src\cnnClassifier\components\data_ingestion.py", line 41, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\zipfile.py", line 1294, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
