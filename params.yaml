@@ -1,1 +1,8 @@
-key : val
+AUGMENTATION: True           # Whether to use data augmentation during training (improves generalization)
+IMAGE_SIZE: [224, 224, 3]    # Input image size: height, width, channels (RGB)
+BATCH_SIZE: 16               # Number of samples processed before the model is updated
+INCLUDE_TOP: False           # Whether to include the final classification layer of the pre-trained model
+EPOCHS: 1                    # Number of times the entire dataset is passed through the model
+CLASSES: 2                   # Number of output classes (cancer vs. no cancer)
+WEIGHTS: imagenet            # Use pre-trained weights from ImageNet for transfer learning
+LEARNING_RATE: 0.01          # Step size for updating model weights during training

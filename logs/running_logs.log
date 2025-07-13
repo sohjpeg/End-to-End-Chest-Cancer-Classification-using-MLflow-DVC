@@ -45,3 +45,38 @@ Traceback (most recent call last):
     self.fp = io.open(file, filemode)
               ^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2025-07-13 17:02:01,611 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:02:01,614 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:02:01,615 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:02:01,616 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-07-13 17:02:44,857 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:02:44,861 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:02:44,861 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:02:44,863 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-07-13 17:03:52,857 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:03:52,860 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:03:52,861 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:03:52,861 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-07-13 17:04:57,752 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:04:57,754 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:04:57,755 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:04:57,757 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-07-13 17:05:06,133 : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-13 17:29:49,760 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-13 17:29:49,761 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:29:49,763 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:29:49,763 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:29:49,763 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-07-13 17:29:50,188 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-13 17:29:50,188 : INFO : main : ***********************]
+[2025-07-13 17:29:50,188 : INFO : main : >>>>>>> stage Prepare base model started <<<<<<<]
+[2025-07-13 17:29:50,189 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-07-13 17:29:50,190 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-07-13 17:29:50,191 : INFO : common : created directory at: artifacts]
+[2025-07-13 17:29:50,191 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-07-13 17:29:50,534 : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-13 17:29:50,687 : INFO : main : >>>>>>> stage Prepare base model completed <<<<<<<
+
+x==========x]
