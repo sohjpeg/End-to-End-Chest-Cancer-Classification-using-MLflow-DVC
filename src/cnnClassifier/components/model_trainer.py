@@ -5,6 +5,8 @@ import tensorflow as tf
 import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
+import mlflow
+import mlflow.keras
 
 class Training:
     def __init__(self, config: TrainingConfig):

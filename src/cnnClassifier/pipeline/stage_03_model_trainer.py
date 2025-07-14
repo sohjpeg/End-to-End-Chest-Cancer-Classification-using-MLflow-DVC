@@ -1,6 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.model_trainer import Training
 from cnnClassifier import logger
+import mlflow
+import mlflow.keras
 
 STAGE_NAME = "Training"
 

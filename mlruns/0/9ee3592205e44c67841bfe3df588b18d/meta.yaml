@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sohai/OneDrive%20-%20National%20University%20of%20Sciences%20%26%20Technology/Desktop/proj/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/9ee3592205e44c67841bfe3df588b18d/artifacts
+end_time: 1752474852721
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ee3592205e44c67841bfe3df588b18d
+run_name: welcoming-sheep-890
+run_uuid: 9ee3592205e44c67841bfe3df588b18d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752474834306
+status: 3
+tags: []
+user_id: sohai

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sohai/OneDrive%20-%20National%20University%20of%20Sciences%20%26%20Technology/Desktop/proj/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/ede77b15bf254164a49ee380f158090c/artifacts
+end_time: 1752475619188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ede77b15bf254164a49ee380f158090c
+run_name: melodic-eel-309
+run_uuid: ede77b15bf254164a49ee380f158090c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752475599935
+status: 3
+tags: []
+user_id: sohai

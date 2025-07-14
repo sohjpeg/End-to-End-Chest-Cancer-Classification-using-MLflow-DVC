@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sohai/OneDrive%20-%20National%20University%20of%20Sciences%20%26%20Technology/Desktop/proj/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/3423ff183c8c4100a4d1b66751e5c655/artifacts
+end_time: 1752475853897
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3423ff183c8c4100a4d1b66751e5c655
+run_name: flawless-midge-235
+run_uuid: 3423ff183c8c4100a4d1b66751e5c655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752475835191
+status: 3
+tags: []
+user_id: sohai

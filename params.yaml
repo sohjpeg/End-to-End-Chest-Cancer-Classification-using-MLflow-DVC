@@ -1,8 +1,18 @@
-AUGMENTATION: True           # Whether to use data augmentation during training (improves generalization)
-IMAGE_SIZE: [224, 224, 3]    # Input image size: height, width, channels (RGB)
-BATCH_SIZE: 16               # Number of samples processed before the model is updated
-INCLUDE_TOP: False           # Whether to include the final classification layer of the pre-trained model
-EPOCHS: 1                    # Number of times the entire dataset is passed through the model
-CLASSES: 2                   # Number of output classes (cancer vs. no cancer)
-WEIGHTS: imagenet            # Use pre-trained weights from ImageNet for transfer learning
-LEARNING_RATE: 0.01          # Step size for updating model weights during training
+# AUGMENTATION: True           # Whether to use data augmentation during training (improves generalization)
+# IMAGE_SIZE: [224, 224, 3]    # Input image size: height, width, channels (RGB)
+# BATCH_SIZE: 16               # Number of samples processed before the model is updated
+# INCLUDE_TOP: False           # Whether to include the final classification layer of the pre-trained model
+# EPOCHS: 4                    # Number of times the entire dataset is passed through the model
+# CLASSES: 2                   # Number of output classes (cancer vs. no cancer)
+# WEIGHTS: imagenet            # Use pre-trained weights from ImageNet for transfer learning
+# LEARNING_RATE: 0.01    # Step size for updating model weights during training
+
+
+AUGMENTATION: True                 # ✅ Keep this True to improve generalization
+IMAGE_SIZE: [224, 224, 3]          # ✅ Reasonable size for pre-trained models like ResNet, EfficientNet
+BATCH_SIZE: 16                    # 🔼 Increase batch size for more stable gradients (if memory allows)
+INCLUDE_TOP: False                 # ✅ Keep this False to add your custom classifier
+EPOCHS: 20                         # 🔼 Increase to 20–30 for better learning on medical datasets
+CLASSES: 2                         # ✅ Binary classification: cancer / no cancer
+WEIGHTS: imagenet                  # ✅ Use transfer learning as medical datasets are often small
+LEARNING_RATE: 0.0001              # 🔽 Lower the LR for fine-tuning pre-trained weights

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sohai/OneDrive%20-%20National%20University%20of%20Sciences%20%26%20Technology/Desktop/proj/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/d1dac1a4f1a64a399114d10b773eb3e9/artifacts
+end_time: 1752473840710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1dac1a4f1a64a399114d10b773eb3e9
+run_name: likeable-deer-752
+run_uuid: d1dac1a4f1a64a399114d10b773eb3e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752473821325
+status: 3
+tags: []
+user_id: sohai
