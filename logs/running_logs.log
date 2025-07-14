@@ -785,3 +785,33 @@ x==========x]
 [2025-07-14 22:36:52,944 : INFO : stage_04_model_evaluation : >>>>>>> stage Evaluation stage completed <<<<<<<
 
 x==========x]
+[2025-07-14 23:06:32,024 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.7.42.173:8080]
+[2025-07-14 23:06:32,024 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-07-14 23:06:50,055 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:06:50] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:07:40,671 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:07:40] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-07-14 23:10:08,456 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:10:08] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:11:08,192 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.7.42.173:8080]
+[2025-07-14 23:11:08,192 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-07-14 23:11:13,602 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:11:13] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:11:19,239 : INFO : _internal : 10.7.42.173 - - [14/Jul/2025 23:11:19] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:11:28,329 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:11:28] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-07-14 23:12:04,484 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.7.42.173:8080]
+[2025-07-14 23:12:04,485 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-07-14 23:12:07,294 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:12:07] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:12:15,136 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:12:15] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-07-14 23:14:50,015 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.7.42.173:8080]
+[2025-07-14 23:14:50,015 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-07-14 23:15:11,809 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:15:11] "GET / HTTP/1.1" 200 -]
+[2025-07-14 23:15:21,750 : INFO : _internal : 127.0.0.1 - - [14/Jul/2025 23:15:21] "POST /predict HTTP/1.1" 200 -]
